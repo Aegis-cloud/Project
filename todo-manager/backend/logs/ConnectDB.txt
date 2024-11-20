@@ -1,0 +1,8 @@
+sqlplus system/OracleDB1@//192.168.1.35:1521/XE
+
+lsnrctl start
+lsnrctl stop
+lsnrctl status
+
+om.microsoft.java.debug.core.UsageDataSession recordResponse
+WARNING: abnormal response
